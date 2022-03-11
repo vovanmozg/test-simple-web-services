@@ -24,5 +24,5 @@ func main() {
 	http.HandleFunc("/hello", hello)
 	http.HandleFunc("/headers", headers)
 
-	http.ListenAndServe(":3333", nil)
+	http.ListenAndServe(":8080", nil)
 }
